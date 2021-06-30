@@ -18,8 +18,6 @@ connection.connect((error) => {
     }
 });
 
-// var storedResult;
-
 // connection.query(
 //     'select * from products',
 //     (error, result) => {
@@ -32,7 +30,6 @@ connection.connect((error) => {
 //     }
 // );
 
-// console.log(storedResult[0].email);
 
 module.exports = {
     connection,
